@@ -331,9 +331,13 @@ p {
 
 @media (max-width: 480px) {
     .safety-info {
-        flex-direction: column;
-        gap: 10px;
-        margin-top: 20px;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        gap: 6px;
+        margin-top: 15px;
+        font-size: 0.58rem;
+        justify-content: center;
     }
 
     .container {
@@ -347,23 +351,23 @@ p {
     }
 
     .content-box {
-        padding: 35px 20px;
+        padding: 30px 15px;
         border-radius: 30px;
     }
 
     .mascot-img {
-        width: 260px;
-        margin-bottom: 5px;
+        width: 240px;
+        margin-bottom: -5px;
     }
 
     h1 {
-        font-size: 1.8rem;
-        line-height: 1.1;
-        margin-bottom: 20px;
+        font-size: 2.2rem;
+        line-height: 1;
+        margin-bottom: 15px;
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.95rem;
         margin-bottom: 25px;
     }
 
